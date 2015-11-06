@@ -1,0 +1,123 @@
+/*font*/
+body{
+	/*background: url("../img/grid2.png") repeat center;*/
+}
+.color-collocation{
+	margin: 0;
+	padding: 10% 5%;
+	color:#000;
+	font-size: 16px;
+	font-family: Lato,sans-serif;
+}
+
+.collocationUl,
+.collocationList,
+.collocationLineUL,
+.colorList{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.collocationUl{
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.collocationList{
+	list-style: none;
+	width: 100%;
+	padding: 1%;
+	border: 1px #888 solid;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	-moz-border-radius: 4px;
+	display: block;
+}
+
+.collocationList div{
+	vertical-align: middle;
+}
+
+.collocationNum,
+.collocationDelete,
+.collocationCount,
+.collocationLine,
+.collocationLineUL
+.addColor{
+	display: inline-block;
+	padding: 1%;
+}
+
+.collocationNum{
+	font-weight: bold;
+}
+
+.collocationCount{
+	font-weight: bold;
+}
+
+.collocationDelete{
+	color: #E6195E;
+	cursor: pointer;
+}
+
+.colorList{
+	width: 80px;
+	display: inline;
+	vertical-align: middle;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+.collocationLineUL li:first-child .colorShow{
+	border-radius: 4px 0 0 4px;
+	-webkit-border-radius: 4px 0 0 4px;
+	-o-border-radius: 4px 0 0 4px;
+	-moz-border-radius: 4px 0 0 4px;
+}
+
+.colorShow{
+	height: 40px;
+	width: inherit;
+	float: left;
+	display: inline;
+}
+
+.colorName{
+	width: inherit;
+	text-align: center;
+	float: left; 
+	font-size: 8px;
+	color: #888;
+	font-weight: lighter;
+}
+
+.collocationLineUL{
+	padding: 0;
+	margin: 0;
+	float: left;
+	display: inline-block;
+}
+
+
+.addColor{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px #888 solid;
+	font-weight: bold;
+	float: left;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	border-radius: 0 4px 4px 0;
+	-webkit-border-radius: 0 4px 4px 0;
+	-o-border-radius: 0 4px 4px 0;
+	-moz-border-radius: 0 4px 4px 0;
+}
+
